@@ -1,0 +1,193 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header {
+  background-color: #FFFF00;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizza-name {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.logo img {
+  width: 100px;
+}
+
+main {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.menu-item ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+}
+
+.reviews .emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Increased gap for better spacing */
+  padding: 20px 0; /* Added padding for better vertical spacing */
+}
+
+.reviews .emojis img {
+  width: 60px; /* Increased emoji size from 40px to 60px */
+}
+
+.about-us {
+  position: relative;
+}
+
+.about-content {
+  position: relative;
+}
+
+.about-us img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background: rgba(0, 0,0, 0.3);
+}
+
+footer {
+  background-color: #FFFF00;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.social-media a {
+  margin-left: 10px;
+}
+
+.social-media img {
+  width: 30px;
+}
+
+.pizza {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.pizza p {
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  box-shadow: 0 0 15px 10px orange;
+  transition: 0.5s linear;
+}
+
+img:hover {
+  transform: scale(1.10);
+  transition: 1s linear;
+}
+
+h3:hover {
+  font-size: 40px;
+  color: red;
+  transition: 1s linear;
+}
